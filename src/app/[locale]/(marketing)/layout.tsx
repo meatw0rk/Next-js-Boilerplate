@@ -54,6 +54,14 @@ export default async function Layout(props: {
               </Link>
             </li>
             <li>
+              <Link
+                href="/todo/"
+                className="border-none text-gray-700 hover:text-gray-900"
+              >
+                Todos
+              </Link>
+            </li>
+            <li>
               <a
                 className="border-none text-gray-700 hover:text-gray-900"
                 href="https://github.com/ixartz/Next-js-Boilerplate"
